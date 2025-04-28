@@ -52,3 +52,19 @@ The project consists of the following Terraform files:
   - Installs **Grafana** to visualize metrics and exposes its web UI on port 3000.
   - All tools are installed directly on the VM (no Docker) and run as systemd services.
 
+## How to Run Terraform
+
+- **Initialize the Terraform Working Directory**:
+  ```bash
+  terraform init
+  ```
+
+- **Apply the Configuration**:
+  ```bash
+  terraform apply
+  ```
+
+- **Destroy the Infrastructure**:
+  ```bash
+  terraform destroy
+  ```
